@@ -99,13 +99,16 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
+        title: "IEEE",
+        href: "https://ieeexplore.ieee.org/Xplore/home.jsp"
     },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
+        title: "Dblp",
+        href: "https://dblp.org/"
     },{
-        title: "Apple",
-        href: "https://apple.com"
+        title: "ACM",
+        href: "https://dl.acm.org/"
+    },{
+        title: "Scholar",
+        href: "https://scholar.google.com/"
     }
 ]
