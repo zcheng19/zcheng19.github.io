@@ -97,7 +97,7 @@ service-worker: true
 
 
 # Friends
-friends: [
+Digital Libraries: [
     {
         title: "IEEE",
         href: "https://ieeexplore.ieee.org/Xplore/home.jsp"
