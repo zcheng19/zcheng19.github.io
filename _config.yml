@@ -99,13 +99,13 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "IEEE",
+        title: "IEEE_Xplore",
         href: "https://ieeexplore.ieee.org/Xplore/home.jsp"
     },{
         title: "Dblp",
         href: "https://dblp.org/"
     },{
-        title: "ACM",
+        title: "ACM_DLC",
         href: "https://dl.acm.org/"
     },{
         title: "Scholar",
