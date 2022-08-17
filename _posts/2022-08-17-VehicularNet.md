@@ -14,6 +14,7 @@ tags:
 
 ### 参考文献
 Noor-A-Rahim, Md, et al. "A survey on resource allocation in vehicular networks." IEEE transactions on intelligent transportation systems (2020).
+![](/blog_img/RSU.png)
 |技术或标准|问题分类|待解决问题|解决方法或算法|性能评估|参考文献|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |dedicated short range communications (DSRC)|MAC层参数分配问题|不同驻留时间导致接入几率不均等|所有车辆分配相同的MAC参数|用户分配到的资源不公平|-|
