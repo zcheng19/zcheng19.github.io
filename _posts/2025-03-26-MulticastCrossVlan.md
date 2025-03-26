@@ -13,7 +13,7 @@ tags:
 ## 场景一：单播跨VLAN通信场景
 实验拓扑图如下所示，拓扑中包含两个Vlan，分别是Vlan 10和Vlan 20，PC1、PC2和PC3直连各自交换机的链路类型为access，交换机之间的链路类型为trunk，trunk链路允许所有Vlan标签的数据通过。拓扑中，Vlan 10的PC1需要向对端Vlan 10的PC3和Vlan 20的PC2通信，由于二层不能直接跨Vlan通信，因此需要打开华为三层交换机的Vlanif逻辑接口。Vlan 10的交换机逻辑接口对应Vlanif 10，作为Vlan 10内所有主机的默认网关，IP地址为192.168.10.254/24。由于PC1的数据可以直接发送到交换机SW2，因此在SW2上设置Vlanif 10，同时作为PC1和PC3的默认网关，为了实现跨Vlan转发功能，在交换机SW2上设置Vlanif 20逻辑接口，IP地址为192.168.20.254/24，使其作为PC2的默认网关。由于在同一台交换机上各个Vlanif之间可以相互转发数据，因此可以实现在三层交换机上的跨Vlan数据转发。
 
-<div align="center"><img src="unicast.png"></div>
+<div align="center"><img src="/blog_img/unicast.png"></div>
 
 <p align="center">图1  单播跨VLAN通信场景</p>
 
