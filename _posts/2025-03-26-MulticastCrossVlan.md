@@ -15,7 +15,7 @@ tags:
 
 ![](/blog_img/unicast.png)
 
-图1  单播跨VLAN通信场景
+<center>图1  单播跨VLAN通信场景</center>
 
 交换机配置命令：
 
