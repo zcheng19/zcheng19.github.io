@@ -253,6 +253,7 @@ Port trunk allow-pass vlan all
 Quit
 
 **SW2:**
+
 System-view
 
 Vlan batch 10 20
