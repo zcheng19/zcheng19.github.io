@@ -22,36 +22,65 @@ tags:
 SW1：
 
 System-view
+
 Vlan batch 10 20
+
 Interface g0/0/1
+
 Port link-type access
+
 Port default vlan 10
+
 Quit
+
 Interface g0/0/2
+
 Port link-type trunk
+
 Port trunk allow-pass vlan all
+
 Quit
 
 SW2:
+
 System-view
+
 Vlan batch 10 20
+
 Interface g0/0/1
+
 Port link-type trunk
+
 Port trunk allow-pass vlan all
+
 Quit
+
 Interface g0/0/2
+
 Port link-type access
+
 Port default vlan 10
+
 Quit
+
 Interface g0/0/3
+
 Port link-type access
+
 Port default vlan 20
+
 Quit
+
 Interface vlanif 10
+
 Ip address 192.168.10.254 24
+
 Quit
+
 Interface vlanif 20
+
 Ip address 192.168.20.254 24
+
 Quit
 
 测试结果如下，PC1、PC2、PC3之间可以相互ping通：
